@@ -1,0 +1,98 @@
+.navbar-header {
+  float: left;
+
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-brand {
+  float:none;
+}
+
+.jumbotron {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.jumbo-input {
+  margin-bottom: 100px;
+}
+
+.input-row {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.content {
+  margin-bottom: 60px;
+}
+
+.pnl-sign img {
+  max-width: 200px;
+}
+
+.pnl-horoscope {
+  text-align: center;
+}
+
+.pnl-horoscope .btn-div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.panel-body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.media-body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.media img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.twitter-timeline {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.thing-to-animate-1 {
+  animation-duration: 5s;
+  animation-name: imgmove;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: imgmove;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes imgmove {
+  from {
+    margin-left: -150px;
+  }
+  to {
+    margin-left: 150px;
+  }
+}
+
+
+@keyframes imgmove {
+  from {
+    margin-left: -150px;
+  }
+  to {
+    margin-left: 150px;
+  }
+}
