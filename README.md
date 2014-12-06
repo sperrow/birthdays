@@ -1,4 +1,4 @@
 birthdays
 =========
 
-Date Analyzer
+http://sperrow.github.io/birthdays/
